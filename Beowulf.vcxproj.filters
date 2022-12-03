@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f07bceb9-d84d-430c-ab37-067fe9b4c6c2}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3fac48fc-fb3e-49b5-b9a2-e1a42e6e02ed}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{c294a910-f86b-49b6-b87c-82e344169286}</UniqueIdentifier>
+      <Extensions>*.txt</Extensions>
+    </Filter>
+    <Filter Include="Nielsen">
+      <UniqueIdentifier>{9f0cd08c-77c1-4838-8f81-51d4d8038db8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="attacks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="board.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="checks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="computil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="egtb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eval.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moves.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="probe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rand64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tactics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="attacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="checks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Computil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="moves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="probe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rand64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tactics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tbdecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="beowulf.cfg">
+      <Filter>Text</Filter>
+    </None>
+    <None Include="default.per">
+      <Filter>Text</Filter>
+    </None>
+    <None Include="Extras\README">
+      <Filter>Text</Filter>
+    </None>
+    <None Include="tests\wac_hard.epd">
+      <Filter>Text</Filter>
+    </None>
+    <None Include="tests\wac_sel.epd">
+      <Filter>Text</Filter>
+    </None>
+    <None Include="..\Nielsen\Nielsen.pgn">
+      <Filter>Nielsen</Filter>
+    </None>
+    <None Include="..\Nielsen\NielsenAnn.pgn">
+      <Filter>Nielsen</Filter>
+    </None>
+    <None Include="..\Nielsen\NielsenSchiller.pgn">
+      <Filter>Nielsen</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ChessBrain2.txt">
+      <Filter>Text</Filter>
+    </Text>
+    <Text Include="EndTest.txt">
+      <Filter>Text</Filter>
+    </Text>
+    <Text Include="Progress.txt">
+      <Filter>Text</Filter>
+    </Text>
+    <Text Include="Tests.txt">
+      <Filter>Text</Filter>
+    </Text>
+    <Text Include="ToDo.txt">
+      <Filter>Text</Filter>
+    </Text>
+    <Text Include="Tweak.txt">
+      <Filter>Text</Filter>
+    </Text>
+    <Text Include="..\Nielsen\Nielsen.log">
+      <Filter>Nielsen</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

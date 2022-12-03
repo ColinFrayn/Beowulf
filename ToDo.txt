@@ -1,0 +1,28 @@
+TODO for Beowulf
+----------------
+
+- Fix the 'trapped queen' code.  e.g. in this position;
+  4kb1r/p1pbpppp/3p1n2/8/3P4/8/PPPP1PqP/RNBQK2R w KQk -
+- Something is *really* screwed with the search.  e.g. WAC120, WAC270 -> seems to work now.  Odd....
+- WAC002 is broken
+
+TODO for BeoServer
+------------------
+
+* Maybe build as a library because the output/input method for many nodes is too slow.
+* Redistribution of aborted nodes (split) followed by return of a correct
+   answer to original NODE work unit - problem?  FIXED by removing the early exit.
+* Still causes problems with computers starting at different times!!!
+* Split up nodes more intelligently esp. if there are few first-ply nodes.
+* Distribution of repeated nodes related to number of nodes remaining
+
+
+TODO Blue Skies
+---------------
+
+- Problem with SEE, e.g. this position;
+   3r2k1/p2r1p1p/1p2p1p1/8/1P6/1n1R3P/1P2NPP1/3R2K1 b - -
+   (SEE for Nd2 depends on whether d1xd2 or d3xd2 or d3xd7 first)
+- Pawn score hashing???
+
+

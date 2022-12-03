@@ -1,0 +1,218 @@
+General Test Positions
+----------------------
+
+** MISCELLANEOUS **
+-------------------
+
+r4k2/2R2p1r/4pBp1/4P2p/pR3P1P/Pb2K1P1/8/8 b - -
+// Rh7 is trapped
+
+5k2/p2p3p/2p2pp1/3p3r/1P1N1P1P/6P1/P5B1/4K3 b - -
+// Rh5 is trapped
+
+r1bqrbk1/2pn1ppp/2pp4/8/p1B1PB2/2N2P2/PPPQ2PP/1K1R3R w - -
+// Must realise that ... a3 will destroy king shield.
+// (esp. after bxa3)
+
+r4rk1/4bpp1/pq2p2p/1p2P3/1P1Pb3/1Q3N2/4BPPP/R1R3K1 w - -
+// Qc3.  Don't move Rc1 and lose control of c-file.
+
+r1bqkbnr/pp2p1pp/2np1p2/2p5/2P5/2NNP1P1/PP1P1P1P/R1BQKB1R b KQkq -
+// Kf7??
+
+2rq1rk1/pb1pn1pp/1p2p3/2pn1p2/3P2P1/P1PBPN1P/1P1NQP1R/1K1R4 b - -
+// Deep Sjeng test.  Nxc3!!
+
+r2r1b2/3b1k1p/2p2pp1/p3n3/R3NNP1/7P/PPP5/1KB1R3 w - -
+// From correspondence game - Nxf6!! (v. hard)
+
+r4k1r/pp2pp1p/3P4/2P1b2q/Q7/4p3/B4PPP/3R1RK1 w - -
+// Petrosian vs. Fischer.  f4!!
+
+** FROM CCC **
+--------------
+
+r1b2rk1/1ppq2bp/3p1ppB/3Pp2P/p1P1P1P1/4QP2/PP2NK1R/R7 b - -
+Moves : Bxh6! (traps the queen or wins the bishop)
+r1b2rk1/1ppq3p/3p1p1Q/3Pp1pP/p1P1P1P1/5P2/PP2NK1R/R7 w - -  (Position after trap)
+
+r1bk3r/1pp2pp1/p2p1n1p/5q2/8/4BN2/PPPQ1PPP/3RR1K1 w - -
+// ID "BeoTest 1";
+// Bb6!  Hard.  Requires 10 ply / 3 minutes.  Should be improved.  Check out king attack.
+// V2.2 requires only 27 sec.
+// V2.3 unsolved in 1 minute (cercia-09)
+
+3r1rk1/2n1nppp/1pp1p3/p2qP2Q/P1RPN3/2R5/1P2NPPP/6K1 w - - 
+// ID "Beotest 2";
+// Nf6!  Some programs take a few seconds.  Beo takes over 30.
+// Unsolved in 60 sec (3/01/02)
+// 53 sec. v2.2
+// 32 sec, v2.3 (cercia-09)
+
+1r3rk1/pbbnq1pp/1p6/PPpp1p2/3Pn3/3NNPP1/2Q1P1BP/R1B2RK1 b - - 
+//Ng3? Nd6   Hard.  King safety.
+//avoid Ng3 because of 18...Nxg3 19.hxg3 Bxg3 20.f4 Qh4 21.Rf3 Qh2+ 22.Kf1.
+
+3K4/kp6/r6P/P7/p7/8/8/4B3 w - -
+//Moves : Bf2 Nice endgame test - avoid stalemates Mate in 29 or 31?
+
+r1b2r2/pp1nqn1k/2pp2pb/4Pp1p/2PP1p1N/2N3BP/PPQ1B1P1/3RR1K1 w - -
+// Nxg6 wins by force.  Qg6+ on 4th move, *e6 on 5th necessary*.  Hard.
+// Nxg6 Kxg6  Qxf5+ Kg7  Bd3 Rh8  Qg6+ Kf8  e6
+
+r4rk1/pp1nqppp/2b1p3/6N1/4N3/6Q1/PPP2PPP/1K1RR3 w - -
+// Rxd7!  Hard.
+
+8/3n1pkp/6p1/1P1N4/3K2P1/7P/8/8 w - -
+// g5!, b6!?  g5 might not work with deep search (R.Hyatt).
+
+4rrk1/1p2bppp/1q1p4/p1nP1N2/2P1nB2/7P/PPB3PK/R2Q1R2 w - - 
+// ID "Beotest 3";
+// Nigel Short cockup.  Correct move is Nxg7! and wins.
+// 21.5 sec. (3/12/01)  31.9 sec (3/01/02)
+// 6.5 sec v2.2
+// 24.91 sec v2.3 (cercia-09)
+
+2b1qrk1/5p1p/pBn3p1/1p2p3/4P2N/bBP1Q3/P4PPP/3R2K1 w - -
+// Spassky as W vs. Beliavsky
+// Nxg6!! looks very good - probably correct.  Very hard position.
+
+4r3/p1p1pPp1/P1P1P1P1/5K2/3p2P1/7p/3P1ppr/3R1nkq w - -
+// Should be a mate in 19.  Incredible position!  Probably impossible.
+
+2k2r1r/1pp5/p1p1b2q/4N1pp/1P1P4/2P1Q3/P4RPP/5RK1 w - -
+// d5! clearing the diagonals for Qa7
+
+3r1k2/1R2npp1/p3p3/8/B3P3/2p3p1/PP4P1/R4KNr b - -
+// ID "Beotest 4";
+// Rd2.  Mate in 9
+
+2r1k1nr/4ppbp/3p2p1/p3P3/bp1B1PP1/7P/qPPQ2B1/1NKR3R w - -
+// exd6!  King safety test
+
+r4rk1/1p4bp/p1p3p1/3q4/6Q1/4BP1P/PP3P2/3R1RK1 b - -
+// Very difficult Kasparov test.  Qxa2??, Qf3!!.  Nobody gets it.
+
+2r1r1k1/pp1nbpp1/4pn1p/q3NN1P/P1pP1B2/2P5/1PQ2PP1/R3R1K1 w - -
+// King hunt.  Nxg7 is good.  Probably other good moves too.
+
+r3r1k1/2qn1pbp/ppbpp1p1/4P3/2P2P2/1PNB3Q/PB4PP/4RR1K w - -
+// Be4!  It of course is much better to exchange the bishops than
+// allowing Black to capture the knight because the black
+// squares which are weak in Blacks defense. (?)  From Marc van Hal
+// by email.
+
+r1b2rk1/p1p1qppp/1pn1p1n1/3pP3/3P4/2PB2P1/PP1N1PP1/R2QK1NR b KQ -
+// Beo played h6? in a game.  I suggest this might be a mistake - opening up
+// the kingside for attack a few moves later after (wp)g4 and (wp)g5.  Otherwise,
+// Beo was unwise to fail to prevent g4,g5 afterwards by leaving Qe7 and Ng6
+4qrk1/2p1np2/rp2p1np/p2pP2Q/3P4/2P4N/PP1N1PP1/R3K2R w KQ -
+// Nasty KS position.
+
+4k3/2p5/1p2p1p1/p1p1P1P1/P1P3p1/1P6/5PK1/8 b - - 
+// Deep Fritz vs. Kramnik, game 1.  Blocked.
+
+6k1/4pp1p/3p2p1/7n/p3P3/r4P2/P1PK2P1/1R5R w - - 
+// Ra3 is blocked after Rb2.  RxN might be pivotal.
+
+** "NEVER CONCEPT" TESTS **
+---------------------------
+
+8/6p1/7k/7B/6PK/2p2P2/8/8 w - -
+// 1. g5+ Kh7; 2. Bf7 c2; 3. Kh5 c1=Q; 4. g6+ Kh8; 5. Kg4  and white draws
+7k/5Bp1/6P1/7K/8/5P2/8/2q5 w - -  // Position before Kg4
+// Beowulf doesn't recognise the fact that the black pawn is locked, the king is blocked,
+// and there is no way black can CM without removing the pawn.  To do this he must lose
+// the queen.  Clever ;)
+
+8/8/8/5Bp1/7k/8/4pPKP/8 w - -
+// 1. Bg4 !! e1=Q; 2. h3! and white draws
+8/8/8/6p1/6Bk/8/5PKP/4q3 w - - // Before h3!
+// Similar - black's pawn is blocked and there is no mating situation
+
+k7/rb6/pr4p1/Pp3pPp/1Pp1pP1P/2PpP3/3P4/4K3 w - - 
+// Don't capture axb6!  (Drawn position)
+r7/3k2p1/3brpPp/p1p1pP1P/PpPpP3/1P1P4/4K3/8 w - - 
+// A much easier version
+
+
+** From Jim's Analysis **
+-------------------------
+
+r1b1k2r/ppp1bppp/3qp3/8/2PP4/3QBN2/PP3PPP/R4RK1 w kq -
+// c5? too committal.  Better is Qe4.
+
+8/5bPK/2p5/2Bk4/1P6/5p2/8/8 w - - 
+// g8=q is an easy draw.
+// Beowulf thinks it's 1.2 pawns ahead.  (3/01/02) Crafty says ~0.2.
+
+r1b1kb1r/1pqp1ppp/p1n1pn2/8/4PP2/1NNB4/PPP3PP/R1BQ1RK1 b kq f3
+// Bb4?? (e5)  Required is d6 (stopping e5).  KB is vital in Sicilian games.
+// Crafty also plays this move.
+
+r2q1rk1/1b1nbpp1/p3p2p/8/Pp1p4/3BPNNP/1P3PP1/2RQ1RK1 w - -
+// exd4 is drawish and lifeless
+// Nxd4 is better followed by Bb1 or Qc2 (i.e.)
+
+2r2rk1/pp1bbp2/2p4p/n5p1/3P4/4B1P1/P1RNPPBP/2R3K1 w - -
+// h4? here opens the h-file and allows an easy black attack
+
+r1b1kb1r/pp2pppp/2n5/2pq4/8/5NP1/PP1PPPBP/R1BQK2R b KQkq -
+// We don't like 7. .. c4
+
+4kb1r/pp2pppp/2n5/8/3r4/4BBP1/PP3P1P/R4RK1 b k -
+// Rb4 is bad.  Rc6 is better, reinforcing the knight.
+// Balance development versus material
+
+r4rk1/ppq1ppbp/3pbnp1/8/3BP3/2N2P2/PPPQ2PP/1K1R1B1R w - -
+// Nb5 is a bit dodgy.  g4 is better.
+
+r4rk1/pp2ppbp/3p1np1/1N6/2q1P3/5P2/PPPQ1BPP/1K1R3R w - -
+// Nxa7?? is terrible.  Qd3 with equality.
+// Qd3 at 35 sec. (3/01/02)
+
+8/1r2kp2/1rn3p1/4p2p/P3R2P/KP3P2/2P1R1P1/8 w - -
+// Rxe5!?? is really cool :) Congrats Beo!  Changes to f4 later on though...
+
+5rk1/7p/p2q2p1/4p3/3pQ3/5P2/PPP3P1/3KR3 b - -
+// Rf5 is passive.  Rb8 is much better.
+
+1r4k1/3n3p/6p1/8/2p5/2N5/1P4PP/4R2K w - -
+// Don't attack the knight.  Rb4 to remove the pawn is better
+
+3b4/p4p1p/P3P2p/5P2/1p6/1N3K1k/5P2/8 b - - 
+// f6?  fxe6 is OK.  Lower penalty for doubled pawns in endgame.
+3b4/p6p/P3P2p/8/1p6/1N3K1k/5P2/8 b - -
+// After the exchange
+
+r1bq1rk1/pp1nppbp/2p3p1/3p4/3PnB2/N1P3P1/PP1N1PBP/R2Q1RK1 w - -
+// Capture Nxe4 not Bxe4.  Fianchettoed bishop is strong.
+
+8/8/2n1p1p1/5p1p/Pp1k1P1P/3N2P1/P1K5/8 w - -
+// Ne5?? Kd2 - Now toggles between Kd2 and a5.
+
+r2qrnk1/1b2bppp/1pp5/p2p4/3PnB2/PPNNP1P1/4QPBP/R4RK1 w - -
+// Na4?? Nxe4  Note bishop on f4, retreat blocked by e3,g3. After Na4, BPg7-g5 wins.
+
+
+
+** From Other Games **
+----------------------
+
+r1bq1rk1/pp2bppp/2p5/2n1R3/2Pp1B2/3P2P1/PP3PBP/RN1Q2K1 w - -
+// b4? looks dodgy
+
+2rq1bk1/1br2p1p/p2p2p1/1p1P4/4Q3/PP3N2/1BP5/1K1R3R w - -
+// Nice king attack position from GCP
+
+r1k4r/2p2Qpp/2Nb1n2/8/4pq2/8/PPPP2PP/R1B1K2R w KQ -
+// Qxg7?? (Appalling error)  g3 is safe.  (now in book).
+
+r1bq1rk1/pp2ppbp/n4np1/2Pp4/5B2/5NP1/PPP1PPBP/RN1Q1RK1 w - -
+// Qd4 is terrible (and loses after Ng4)
+
+r1bqkb1r/pp3ppp/2np4/2pNp3/2B1P3/8/PPPP1PPP/R1BQK2R b KQkq -
+// We don't like Rb8.  Be6 is better.
+
+8/2r2pk1/5p1p/p1r1b2q/P1BNp3/1QR1P1Pb/5P1P/2R3K1 b - -
+// Crafty easily finds Bxd4!!

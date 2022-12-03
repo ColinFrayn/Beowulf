@@ -1,0 +1,6 @@
+8/k1b5/P4p2/1Pp2p1p/K1P2P1P/8/3B4/8 w - -  acd 24; acn 488104914; acs 3600.01; bm b6+; ce 638; id "WAC.100"; pv b6+ Bxb6 Kb5 Bc7 Be3 Ka8 Kxc5 Ka7 Kc6+ Ka8 Kd7 Ba5 Ke6 Bc3 c5 Ba5 c6 Bd8 Kd7 Bc7 Ke7 Ba5 Kxf6 Bc3+ Kxf5 Be1 a7 Bxh4 c7 Kb7; c0 "Correct"; c1 "tts = 844.26"
+2b5/1r6/2kBp1p1/p2pP1P1/2pP4/1pP3K1/1R3P2/8 b - -  acd 19; acn 425760842; acs 3600.02; bm Rb4; ce 298; id "WAC.230"; pv Kd7 Rb1 Ke8 Ba3 Rh7 Bb2 a4 Kf3 Bd7 Ke3 Bc6 Rg1 Bb5 Kd2 Rh2 Ke3 Rh7 &rep.; c0 "Incorrect"
+Test Summary;
+Correct : 1/2
+Average Time To Solution = 2222.14 sec
+---END LOG---

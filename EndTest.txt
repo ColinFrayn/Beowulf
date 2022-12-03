@@ -1,0 +1,82 @@
+** Endgame Positions **
+-----------------------
+
+Static positional tests (do not allow engine to search)
+-------------------------------------------------------
+
+// Some pawn endgame tests
+8/8/8/3P3k/K3p3/8/8/8 w - -    (even)   // X white win
+8/8/8/3P3k/K3p3/8/8/8 b - -    (even)   // X black win
+8/8/3P4/7k/K3p3/8/8/8 w - -    (white wins)
+8/8/8/3P3k/K7/4p3/8/8 b - -    (black wins)
+8/8/8/K2P4/4p2k/8/8/8 w - -    (white wins)
+8/8/8/K2P4/4p2k/8/8/8 b - -    (black wins)
+8/3P1n2/8/8/8/8/8/k6K w - -    (even)
+8/3P2n1/8/8/8/8/8/k6K w - -    (white wins)
+8/3P4/5n2/8/8/8/8/k6K w - -    (white wins)
+8/3P4/8/8/8/8/3q4/k6K w - -    (black wins)
+8/3P4/8/8/8/8/4q3/k6K w - -    (black advantage)   // X black wins (queenable pawn = queen)
+8/8/8/3P4/K3p2k/8/8/8 w - -    (white wins)
+8/8/8/K2P4/4p2k/8/8/8 w - -    (white wins)
+8/8/K7/3P3k/5p2/8/8/8 w - -    (black advantage)
+8/8/7P/1K6/6k1/p7/8/8 w - -    (white wins)
+8/8/7P/1K6/3p1k1/p7/8/8 w - -  (black advantage)
+8/8/8/4P3/K3p2k/8/8/8 w - -    (white wins)
+
+8/6pp/6n1/5B2/8/1b6/pk3KPP/4R3 b - -   (Black Wins)
+Must recognise this kind of passed pawn as dangerous.
+8/6pp/6n1/5B2/8/1b6/pk3KPP/4Q3 b - -   (Large Advantage to Black)
+Similar, but with a queen
+8/6pp/6n1/5B2/8/1b6/pk3KPP/4RR2 b - -  (Large Advantage to White)
+Similar, but with two defending rooks  
+8/6pp/6n1/5B2/8/1b6/pk3KPP/8 b - -     (Black Wins)
+Similar, but without an attacker
+
+8/8/5k1p/6pP/6K1/8/8/3B4 b - - 
+// Obvious draw.  Solved OK (statically).
+
+8/8/1KPk4/p5p1/8/8/8/8 b - -
+8/1KPk4/8/6p1/p7/8/8/8 b - -
+// Should be an obvious win for white.  Crafty misses both.  Beowulf is now OK.
+
+8/1p4p1/2pp2P1/5P2/3k1K2/8/8/8 w - -
+// Obvious win for white
+
+8/p3k1p1/8/4Ppp1/Pp1P4/6KP/5P2/8 w - -
+// From WAC087.  Obvious win for black.  Needs to be scored higher than ~400.
+
+8/p7/1ppk4/6p1/P1PP2p1/2P1KpP1/7P/8 b - -
+// Obvious win for black.
+
+8/8/5p1p/5P1P/1p6/1Pk3K1/8/8 w - -   
+// Obvious win for black  (unsolved)
+
+8/8/p7/8/1k4K1/8/7P/8 w - -
+// Obvious win for white
+
+8/8/6p1/7p/5k2/8/4K2P/8 b - -
+// King safety for hidden passed pawns
+
+
+Other endgame tests
+-------------------
+
+8/k1P5/8/K7/8/8/8/8 w - -
+k7/2P5/2K5/8/8/8/8/8 b - -
+// Tests for underpromotion bugs
+
+8/p5kp/1pBnP1p1/8/8/P3P3/4K2P/8 w - -
+// This is lost for white.  Best move is probably e4, but it loses.
+// Beo thinks it's way ahead.
+
+8/6p1/5k1p/7P/5PP1/2K2Bn1/8/8 b - -
+// Test for endgame knowledge - wrong bishop & side pawn.  Nxh5 is bad.
+
+
+** PAWNTESTS **
+---------------
+
+8/4kp2/4p1p1/2p1r3/PpP5/3R4/1P1K1PP1/8 w - -
+// Alekhine.  g4! and a-file pawn queens.
+// Difficult to see because of 1. g4 Re4 2. a5 Rf4!?
+// 31 sec. (3/12/01)  14.2 sec. (3/01/02)   18.3 sec. (15/02/02)
